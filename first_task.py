@@ -4,6 +4,18 @@ import matplotlib.pyplot as plt
 
 
 def main(n, bound, func, poly_degree):
+    '''
+    :param n:
+        Количество делений на промежутке
+    :param bound:
+        Левая и права граница
+    :param func:
+        Функция переменных
+    :param poly_degree:
+        Степень полинома при интерполяции
+    '''
+
+
     left, right = bound
 
     if not n % 2:
