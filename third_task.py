@@ -1,4 +1,3 @@
-import sys
 import os
 from PySide6.QtCore import QSize, QUrl
 from PySide6.QtWidgets import QWidget, \
@@ -8,7 +7,7 @@ from PySide6.QtWidgets import QWidget, \
     QMainWindow, \
     QVBoxLayout, \
     QFileDialog, \
-    QLabel, QSizePolicy
+    QLabel
 from PySide6.QtMultimediaWidgets import QVideoWidget
 from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
 
